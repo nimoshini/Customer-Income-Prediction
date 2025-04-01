@@ -1,4 +1,4 @@
-🚀 Income Prediction Assistant: Census Income Analysis
+🚀 CENSUS INCOME PREDICTION ANALYSIS
 
 📌 Overview
 
@@ -15,8 +15,7 @@ The Income Prediction Assistant is an AI-powered application that predicts wheth
 📊 Dataset Structure
 
 📌 Target Variable
-<=50K (Encoded as 0)
->50K (Encoded as 1)
+<=50K (Encoded as 0)  >50K (Encoded as 1)
 
 🔢 Numerical Features
 age: Individual’s age
@@ -51,13 +50,17 @@ native-country: Country of origin
 📌 All categorical features were label-encoded before training.
 
 🛠️ Models & Performance
+
 📉 Logistic Regression	   82.79%
 
 🌳 Decision Tree	         86.00%
 
 🌲 Random Forest	         86.44%
 
+
+
 📉 LOGISTIC REGRESSION
+
 📌 Description:
 
 Linear classification model using the sigmoid function to estimate probabilities.
@@ -72,7 +75,10 @@ Struggles with complex data patterns.
 
 ✔ Accuracy: 82.79%
 
+
+
 🌳 DECISION TREE CLASSIFIER
+
 📌 Description:
 
 Splits data into branches based on feature conditions.
@@ -92,7 +98,10 @@ Sensitive to small data variations.
 ✔ Best max_depth: Found via brute-force search.
 ✔ Accuracy: 86.00%
 
+
+
 🌲 RANDOM FOREST CLASSIFIER (Best Model!)
+
 📌 Description:
 
 An ensemble learning method that builds multiple Decision Trees and averages outputs for better accuracy.
@@ -108,6 +117,7 @@ max_depth: 10, 20, 30
 min_samples_split: 2, 5, 10
 
 📌 Best Parameters Found:
+
 ✔ n_estimators: 200
 ✔ max_depth: 20
 ✔ min_samples_split: 5
