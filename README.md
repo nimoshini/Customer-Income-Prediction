@@ -43,7 +43,6 @@ native-country: Country of origin.
 
 Implemented three machine learning models for classification:
 
-    Model	                     Accuracy
 📉 Logistic Regression	              82.79%
 🌳 Decision Tree	              86.00%
 🌲 Random Forest	              86.44%
