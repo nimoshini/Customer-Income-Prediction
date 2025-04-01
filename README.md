@@ -22,6 +22,7 @@ The Income Prediction Assistant is an AI-powered application that predicts wheth
 <=50K (Encoded as 0)        >50K (Encoded as 1)
 
 🔢 Numerical Features
+
 age: Individual’s age
 
 fnlwgt: Final weight assigned
@@ -35,6 +36,7 @@ capital-loss: Capital loss in income
 hours-per-week: Weekly working hours
 
 🔠 Categorical Features
+
 workclass: Type of employer
 
 education: Education level
