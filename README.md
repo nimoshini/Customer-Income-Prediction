@@ -23,35 +23,35 @@ The Income Prediction Assistant is an AI-powered application that predicts wheth
 
 🔢 Numerical Features
 
-->age: Individual’s age
+-> age: Individual’s age
 
-->fnlwgt: Final weight assigned
+-> fnlwgt: Final weight assigned
 
-->education-num: Years of education
+-> education-num: Years of education
 
-->capital-gain: Capital gain in income
+-> capital-gain: Capital gain in income
 
-->capital-loss: Capital loss in income
+-> capital-loss: Capital loss in income
 
-->hours-per-week: Weekly working hours
+-> hours-per-week: Weekly working hours
 
 🔠 Categorical Features
 
-->workclass: Type of employer
+-> workclass: Type of employer
 
-->education: Education level
+-> education: Education level
 
-->marital-status: Marital status
+-> marital-status: Marital status
 
-->occupation: Job type
+-> occupation: Job type
 
-->relationship: Family role
+-> relationship: Family role
 
-->race: Ethnicity
+-> race: Ethnicity
 
-->sex: Gender
+-> sex: Gender
 
-->native-country: Country of origin
+-> native-country: Country of origin
 
 📌 All categorical features were label-encoded before training.
 
