@@ -1,9 +1,11 @@
 🚀 Income Prediction Assistant: Census Income Analysis
 
 📌 Overview
+
 The Income Prediction Assistant is an AI-powered application that predicts whether an individual earns more than $50K per year based on demographic and employment data. This binary classification problem is solved using machine learning models, with Random Forest emerging as the best-performing model.
 
 🎯 Features
+
 ✅ Predict Income Bracket: Uses AI models to determine if a person earns <=50K or >50K.
 ✅ Multiple ML Models: Implements Logistic Regression, Decision Tree, and Random Forest.
 ✅ Hyperparameter Optimization: Uses GridSearchCV for optimal Random Forest tuning.
@@ -11,9 +13,9 @@ The Income Prediction Assistant is an AI-powered application that predicts wheth
 ✅ Performance Evaluation: Compares models based on accuracy and generalization ability.
 
 📊 Dataset Structure
+
 📌 Target Variable
 <=50K (Encoded as 0)
-
 >50K (Encoded as 1)
 
 🔢 Numerical Features
@@ -49,11 +51,13 @@ native-country: Country of origin
 📌 All categorical features were label-encoded before training.
 
 🛠️ Models & Performance
-Model	Accuracy
-📉 Logistic Regression	82.79%
-🌳 Decision Tree	86.00%
-🌲 Random Forest	86.44%
-📉 Logistic Regression
+📉 Logistic Regression	   82.79%
+
+🌳 Decision Tree	         86.00%
+
+🌲 Random Forest	         86.44%
+
+📉 LOGISTIC REGRESSION
 📌 Description:
 
 Linear classification model using the sigmoid function to estimate probabilities.
@@ -68,7 +72,7 @@ Struggles with complex data patterns.
 
 ✔ Accuracy: 82.79%
 
-🌳 Decision Tree Classifier
+🌳 DECISION TREE CLASSIFIER
 📌 Description:
 
 Splits data into branches based on feature conditions.
@@ -88,7 +92,7 @@ Sensitive to small data variations.
 ✔ Best max_depth: Found via brute-force search.
 ✔ Accuracy: 86.00%
 
-🌲 Random Forest Classifier (Best Model!)
+🌲 RANDOM FOREST CLASSIFIER (Best Model!)
 📌 Description:
 
 An ensemble learning method that builds multiple Decision Trees and averages outputs for better accuracy.
@@ -109,8 +113,11 @@ min_samples_split: 2, 5, 10
 ✔ min_samples_split: 5
 
 🚀 Advantages:
+
 ✅ More robust than a single Decision Tree.
+
 ✅ Handles imbalanced data well.
+
 ✅ Captures complex data patterns effectively.
 
 ⚠️ Limitations:
@@ -121,9 +128,12 @@ Less interpretable than Decision Trees.
 
 ✔ Accuracy: 86.44% (Best Model!)
 
-🏆 Conclusion: Best Model Selection
+CONCLUSION: Best Model Selection
+
 🔹 🏆 Random Forest is the best model with 86.44% accuracy.
+
 🔹 Effectively captures complex relationships while preventing overfitting.
+
 🔹 Optimized hyperparameters (via GridSearchCV) improve performance.
 
 🚀 Final Recommendation: Use Random Forest for the best accuracy!
