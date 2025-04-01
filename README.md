@@ -7,15 +7,19 @@ The Income Prediction Assistant is an AI-powered application that predicts wheth
 🎯 Features
 
 ✅ Predict Income Bracket: Uses AI models to determine if a person earns <=50K or >50K.
+
 ✅ Multiple ML Models: Implements Logistic Regression, Decision Tree, and Random Forest.
+
 ✅ Hyperparameter Optimization: Uses GridSearchCV for optimal Random Forest tuning.
+
 ✅ Feature Engineering: Label-encodes categorical features for effective model training.
+
 ✅ Performance Evaluation: Compares models based on accuracy and generalization ability.
 
 📊 Dataset Structure
 
 📌 Target Variable
-<=50K (Encoded as 0)  >50K (Encoded as 1)
+<=50K (Encoded as 0)        >50K (Encoded as 1)
 
 🔢 Numerical Features
 age: Individual’s age
@@ -49,6 +53,8 @@ native-country: Country of origin
 
 📌 All categorical features were label-encoded before training.
 
+
+
 🛠️ Models & Performance
 
 📉 Logistic Regression	   82.79%
@@ -59,7 +65,7 @@ native-country: Country of origin
 
 
 
-📉 LOGISTIC REGRESSION
+1.LOGISTIC REGRESSION
 
 📌 Description:
 
@@ -77,7 +83,7 @@ Struggles with complex data patterns.
 
 
 
-🌳 DECISION TREE CLASSIFIER
+2. DECISION TREE CLASSIFIER
 
 📌 Description:
 
@@ -100,7 +106,7 @@ Sensitive to small data variations.
 
 
 
-🌲 RANDOM FOREST CLASSIFIER (Best Model!)
+3. RANDOM FOREST CLASSIFIER (Best Model!)
 
 📌 Description:
 
@@ -138,12 +144,16 @@ Less interpretable than Decision Trees.
 
 ✔ Accuracy: 86.44% (Best Model!)
 
-CONCLUSION: Best Model Selection
+CONCLUSION:
+
+Best Model Selection
 
 🔹 🏆 Random Forest is the best model with 86.44% accuracy.
 
 🔹 Effectively captures complex relationships while preventing overfitting.
 
 🔹 Optimized hyperparameters (via GridSearchCV) improve performance.
+
+
 
 🚀 Final Recommendation: Use Random Forest for the best accuracy!
