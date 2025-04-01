@@ -1,4 +1,5 @@
 📊 CENSUS INCOME PREDICTION ANALYSIS
+
 📌 Dataset Overview
 The Census Income Dataset contains demographic and employment details of individuals. The goal is to predict whether a person earns more than $50K per year based on given attributes.
 
@@ -43,9 +44,9 @@ native-country: Country of origin.
 
 Implemented three machine learning models for classification:
 
-📉 Logistic Regression	              82.79%
-🌳 Decision Tree	              86.00%
-🌲 Random Forest	              86.44%
+📉 Logistic Regression	    -    82.79%
+🌳 Decision Tree	          -    86.00%
+🌲 Random Forest	          -    86.44%
 
 🔬 MODEL ANALYSIS
 
